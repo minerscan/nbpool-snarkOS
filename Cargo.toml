@@ -34,7 +34,7 @@ members = [
 ]
 
 [[bin]]
-name = "snarkos"
+name = "nbpool-snarkos"
 path = "snarkos/main.rs"
 
 [workspace.dependencies.snarkvm]
