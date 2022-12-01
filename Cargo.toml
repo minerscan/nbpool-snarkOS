@@ -1,5 +1,5 @@
 [package]
-name = "snarkos"
+name = "nbpool-snarkos"
 version = "2.0.2"
 authors = [ "The Aleo Team <hello@aleo.org>" ]
 description = "A decentralized operating system"
@@ -42,7 +42,7 @@ path = "snarkos/main.rs"
 #git = "https://github.com/AleoHQ/snarkVM.git"
 #rev = "7ac6eee"
 version = "0.9.7"
-features = ["circuit", "console", "parallel"]
+features = ["circuit", "console", "parallel", "cuda"]
 
 [dependencies.anyhow]
 version = "1"
